@@ -16,7 +16,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://bohomian.vercel.app" // 🚀 FIXED: Removed the trailing slash "/"
+   // 🚀 FIXED: Removed the trailing slash "/"
 ];
 
 const corsOptions = {
@@ -54,7 +54,7 @@ app.use('/api/guests', guestRoutes);
 app.use('/api/bookings', bookingRoutes);
 
 // --- 🚀 SERVER START (Fixed for Vercel) ---
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 if (process.env.NODE_ENV !== 'production') {
     const startServer = async () => {
