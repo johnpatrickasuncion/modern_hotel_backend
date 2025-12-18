@@ -1,0 +1,15 @@
+/node_debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+coverage/
+
+/dist
+/build
+
+.env
+.env.local
+
+.DS_store
+Thumbs.debug
+
+.vscode/
