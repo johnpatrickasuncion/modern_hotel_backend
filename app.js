@@ -17,7 +17,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175",
-   // 🚀 FIXED: Removed the trailing slash "/"
+    "https://modern-hotel-frontend.vercel.app"// 🚀 FIXED: Removed the trailing slash "/"
 ];
 
 const corsOptions = {
